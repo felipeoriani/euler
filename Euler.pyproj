@@ -6,7 +6,7 @@
     <ProjectGuid>da4d3d95-087f-4893-802b-0f173e243244</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>006.py</StartupFile>
+    <StartupFile>029.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
   <ItemGroup>
     <Compile Include="001.py" />
     <Compile Include="006.py" />
+    <Compile Include="029.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="048.py">
       <SubType>Code</SubType>
     </Compile>
