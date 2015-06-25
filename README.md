@@ -6,4 +6,4 @@ This repository was created to share my Project Euler implementations in Python.
 
 Status: http://projecteuler.net/profile/felipeoriani.png
 
-
+![alt tag](http://projecteuler.net/profile/felipeoriani.png)
