@@ -1,0 +1,23 @@
+# ----------------------------------
+# Project Euler - projecteuler.net
+# ----------------------------------
+# Developed by Felipe B Oriani
+# Language.......: Python
+# Problem 0056...: Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum sum of each digit?
+# ----------------------------------
+
+def f(n):
+    max = 0
+    for base in range(1, n):
+        for exp in range(1, n):
+            r = pow(base, exp)
+            s = 0
+            for digit in map(int, str(r)): s += digit
+            if (s > max): max = s
+    return max
+
+answer = f(100)
+
+assert answer == 972
+
+print('Anwser: ', answer)
