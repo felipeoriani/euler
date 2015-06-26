@@ -2,8 +2,8 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# Language.......: Python
-# Problem 0056...: Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum sum of each digit?
+# 56 - Powerful digit sum
+# Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum sum of each digit?
 # ----------------------------------
 
 def f(n):

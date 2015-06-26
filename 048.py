@@ -2,8 +2,8 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# Language.......: Python
-# Problem 0048...: Self powers
+# 48 - Self powers
+# Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000.
 # ----------------------------------
 
 def f(n):
