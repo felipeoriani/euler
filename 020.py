@@ -6,7 +6,7 @@
 # Find the sum of the digits in the number 100!
 # ----------------------------------
 
-# function to calculate the factorial of a given number
+# function to calculate the factorial of a given number 
 def factorial(n):
     if (n <= 1):
         return 1
