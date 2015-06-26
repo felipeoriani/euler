@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 06 - Sum square difference
+# 06 - Sum square difference 
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 # ----------------------------------
 
