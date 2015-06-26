@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 20 - Factorial digit sum
+# 20 - Factorial digit sum 
 # Find the sum of the digits in the number 100!
 # ----------------------------------
 
