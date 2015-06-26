@@ -10,7 +10,7 @@ def f(n):
     max = 0
     for base in range(1, n):
         for exp in range(1, n):
-            r = pow(base, exp)
+            r = pow(base, exp) 
             s = 0
             for digit in map(int, str(r)): s += digit
             if (s > max): max = s
