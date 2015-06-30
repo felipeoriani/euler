@@ -28,4 +28,4 @@ anwser = f(100000)
 
 print('Answer: ', anwser)
 
-assert anwser == 0
+assert anwser == 40730
