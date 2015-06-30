@@ -22,7 +22,7 @@ def f(max):
     for i in range(3, max+1):
         if isCurious(i):
             s += i
-    return i
+    return s
 
 anwser = f(100000)
 
