@@ -6,15 +6,11 @@
 # What is the sum of the digits of the number 2^1000?
 # ----------------------------------
 
-def f(exp):
-    s = 0
-    r = 2 ** exp
-    for digit in map(int, str(r)):
-        s += digit
-    return s
+def f(exp):    
+    return sum(map(int, str(2 ** exp)))
 
 anwser = f(1000)
 
 print('Answer: ', anwser)
 
-#assert anwser == 1366
+assert anwser == 1366

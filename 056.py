@@ -11,8 +11,7 @@ def f(n):
     for base in range(1, n):
         for exp in range(1, n):
             r = pow(base, exp) 
-            s = 0
-            for digit in map(int, str(r)): s += digit
+            s = sum(map(int, str(base ** exp)))
             if (s > max): max = s
     return max
 
