@@ -10,4 +10,4 @@ $> python.exe 010.py
 
 Status: http://projecteuler.net/profile/felipeoriani.png
  
-![alt tag](http://projecteuler.net/profile/felipeoriani.png)
+
