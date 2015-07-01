@@ -2,8 +2,8 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 10 - Summation of primes
-# Find the sum of all the primes below two million.
+# 07 - 10001st prime
+# What is the 10001st prime number?
 # ----------------------------------
 
 # return an array of prime numbers using sieve of eratosthenes
@@ -16,12 +16,12 @@ def primes(n):
             multiples.update(range(i*i, n+1, i))
     return r
  
-def f(n):
-    p = primes(n)
-    return sum(p)
+def f(max, index):
+    p = primes(max)
+    return p[index]
 
-anwser = f(10**6*2)
+anwser = f(110000, 10000)
 
-assert anwser == 142913828922
+assert anwser == 104743
 
 print('Answer: ', anwser)

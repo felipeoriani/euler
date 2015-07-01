@@ -11,6 +11,6 @@ def f(exp):
 
 anwser = f(1000)
 
-print('Answer: ', anwser)
-
 assert anwser == 1366
+
+print('Answer: ', anwser)

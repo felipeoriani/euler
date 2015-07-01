@@ -16,7 +16,6 @@ def f(baseMin, baseMax, expMin, expMax):
 
 answer = f(2, 100, 2, 100)
 
-assert answer == 9183
-
 print ('Answer: ', answer)
 
+assert answer == 9183

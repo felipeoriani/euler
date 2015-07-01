@@ -15,6 +15,6 @@ def f(n):
 
 anwser = f(3) + f(5) - f(15)
 
-print('Answer: ', anwser)
-
 assert anwser == 233168
+
+print('Answer: ', anwser)

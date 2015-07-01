@@ -20,6 +20,6 @@ def f(n):
 
 anwser = f(factorial(100))
 
-print('Answer: ', anwser)
-
 assert anwser == 648
+
+print('Answer: ', anwser)

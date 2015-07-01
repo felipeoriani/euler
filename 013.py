@@ -113,6 +113,6 @@ def f():
 
 anwser = f()
 
-print('Answer: ', anwser)
-
 assert anwser == 5537376230
+
+print('Answer: ', anwser)

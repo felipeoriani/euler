@@ -26,6 +26,6 @@ def f(max):
 
 anwser = f(100000)
 
-print('Answer: ', anwser)
-
 assert anwser == 40730
+
+print('Answer: ', anwser)
