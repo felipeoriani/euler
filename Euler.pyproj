@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="008.py" />
     <Compile Include="012.py" />
     <Compile Include="007.py" />
     <Compile Include="010.py" />
