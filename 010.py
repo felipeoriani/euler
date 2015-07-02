@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 10 - Summation of primes
+# 010 - Summation of primes
 # Find the sum of all the primes below two million.
 # ----------------------------------
 
@@ -22,6 +22,6 @@ def f(n):
 
 anwser = f(10**6*2)
 
-print('Answer: ', anwser)
-
 assert anwser == 142913828922
+
+print('Answer: ', anwser)

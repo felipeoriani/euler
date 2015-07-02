@@ -1,28 +1,27 @@
-# ----------------------------------
+# --------------------  --------------
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 07 - 10001st prime
-# What is the 10 001st prime number?
+# 007 - 10001st prime
+# What is the 10001st prime number?
 # ----------------------------------
 
+# return an array of prime numbers using sieve of eratosthenes
 def primes(n):
-    if n <= 2:
-        return []
-    sieve = range(3, n, 2)
-    top = len(sieve)
-    for si in sieve:
-        if si:
-            bottom = (si*si - 3)//2
-            if bottom >= top:
-                break
-            sieve[bottom::si] = [0] * -((bottom-top)//si)
+    r = []
+    multiples = set()
+    for i in range(2, n+1):
+        if i not in multiples:
+            r.append(i)
+            multiples.update(range(i*i, n+1, i))
+    return r
+ 
+def f(max, index):
+    p = primes(max)
+    return p[index]
 
-    return [2]+filter(None, sieve)
+anwser = f(110000, 10000)
 
-for i in primes(10):
-    print(i)
+assert anwser == 104743
 
-#assert answer == 25164150
-
-#print('Answer: ', answer)
+print('Answer: ', anwser)

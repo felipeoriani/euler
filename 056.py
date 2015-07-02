@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 56 - Powerful digit sum
+# 056 - Powerful digit sum
 # Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum sum of each digit?
 # ----------------------------------
 

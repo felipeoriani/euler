@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 34 - Digit factorials
+# 034 - Digit factorials
 # Find the sum of all numbers which are equal to the sum of the factorial of their digits.
 # ----------------------------------
 
@@ -26,6 +26,6 @@ def f(max):
 
 anwser = f(100000)
 
-print('Answer: ', anwser)
-
 assert anwser == 40730
+
+print('Answer: ', anwser)

@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 13 - Large sum
+# 013 - Large sum
 # Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 # ----------------------------------
 
@@ -113,6 +113,6 @@ def f():
 
 anwser = f()
 
-print('Answer: ', anwser)
-
 assert anwser == 5537376230
+
+print('Answer: ', anwser)

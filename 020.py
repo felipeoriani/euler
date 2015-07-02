@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 20 - Factorial digit sum 
+# 020 - Factorial digit sum 
 # Find the sum of the digits in the number 100!
 # ----------------------------------
 
@@ -20,6 +20,6 @@ def f(n):
 
 anwser = f(factorial(100))
 
-print('Answer: ', anwser)
-
 assert anwser == 648
+
+print('Answer: ', anwser)

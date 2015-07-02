@@ -6,7 +6,7 @@
     <ProjectGuid>da4d3d95-087f-4893-802b-0f173e243244</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>034.py</StartupFile>
+    <StartupFile>012.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="012.py" />
+    <Compile Include="007.py" />
     <Compile Include="010.py" />
     <Compile Include="016.py" />
     <Compile Include="013.py" />

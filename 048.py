@@ -2,7 +2,7 @@
 # Project Euler - projecteuler.net
 # ---------------------------------- 
 # Developed by Felipe B Oriani
-# 48 - Self powers
+# 048 - Self powers
 # Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000. 
 # ----------------------------------
 

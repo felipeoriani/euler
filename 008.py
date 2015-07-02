@@ -21,6 +21,6 @@ def f(n):
 
 anwser = f(13)
 
-print('Answer: ', anwser)
-
 assert anwser == 23514624000
+
+print('Answer: ', anwser)
