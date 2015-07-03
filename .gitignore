@@ -58,3 +58,4 @@ target/
 
 # Visual Studio
 *.suo
+*.user
