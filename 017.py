@@ -21,9 +21,9 @@ def number2Text(n):
     elif n >= 20 and n <= 99:
         r = int(n / 10) * 10
         d = int(n % 10)
-        for i in range(0, len(numbers2)):
-            if numbers2[i][0] == r:
-                return numbers2[i][1] + '-' + numbers[d-1][1] if d > 0 else numbers2[i][1]                
+        k = next((j for j in numbers2 if j[0] == r), None)
+        if k != None:
+            return k[1] + '-' + numbers[d-1][1] if d > 0 else k[1]
     elif n >= 100 and n <= 999:
         r = int(n / 100)
         d = int(n % 100)

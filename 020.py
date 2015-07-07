@@ -13,10 +13,7 @@ def factorial(n):
     return n * factorial(n - 1)
 
 def f(n):
-    s = 0
-    for digit in map(int, str(n)):
-        s += digit
-    return s
+    return sum(map(int, str(n)))
 
 anwser = f(factorial(100))
 
