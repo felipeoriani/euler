@@ -2,8 +2,8 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 020 - Factorial digit sum 
-# Find the sum of the digits in the number 100!
+# 030 - Digit fifth powers
+# Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
 # ----------------------------------
 import sys
 
