@@ -29,6 +29,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="028.py" />
+    <Compile Include="036.py" />
+    <Compile Include="011.py" />
+    <Compile Include="017.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="025.py" />
     <Compile Include="002.py" />
     <Compile Include="003.py" />
