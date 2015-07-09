@@ -6,29 +6,29 @@
 # Which starting number, under one million, produces the longest chain?
 # ----------------------------------
 
-#def collatz(n): 
-#    t = 0
-#    r = n
-#    while r > 1:
-#        if r % 2 == 0: 
-#            r = int(r / 2)
-#        else:
-#            r = int(r*3 + 1)
-#        t += 1
-#    return t
+memory = dict()
 
-#def f(n):
-#    m = 0
-#    maxStarting = 0
-#    for starting in range(0, n+1):
-#        c = collatz(starting) 
-#        if c > m:
-#            maxStarting = starting
-#            m = c
-#    return maxStarting
+def seq(n):
+    if n <= 1: 
+        return 1
+    if n in memory: 
+        return memory.get(n)              
+    r = seq(int(n / 2) if n % 2 == 0 else int(n * 3 + 1)) + 1    
+    memory[n] = r
+    return r
 
-#anwser = f(10**6)
+def f(n):
+    s = 0
+    m = 0
+    for i in range(1, n):
+        t = seq(i)
+        if t > s:
+            m = i
+            s = t
+    return m
 
-##assert anwser == 233168
+anwser = f(10**6)
 
-#print('Answer: ', anwser)
+assert anwser == 837799
+
+print('Answer: ', anwser)
