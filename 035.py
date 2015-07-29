@@ -23,7 +23,7 @@ def is_circular_prime(n):
     r = True
     for c in range(0, len(s)):
         s = s[1:] + s[0]
-        if not int(s) in get_primes:
+        if not int(s) in primes:
             r = False
             break
     return r    
@@ -32,11 +32,12 @@ def f(n):
     c = 0
     for i in primes:
         if is_circular_prime(i):
+            print(i)
             c += 1
     return c
 
-anwser = f(1000000)
+anwser = f(10**6)
 
-#assert anwser == 443839
+assert anwser == 55
 
 print('Answer: ', anwser)
