@@ -2,8 +2,8 @@
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
-# 035 - 
-# Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
+# 035 - Circular primes
+# How many circular primes are there below one million?
 # ----------------------------------
 
 # return an array of prime numbers using sieve of eratosthenes
