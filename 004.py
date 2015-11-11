@@ -25,4 +25,4 @@ anwser = f(3)
 
 assert anwser == 906609
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

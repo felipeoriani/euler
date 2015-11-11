@@ -21,4 +21,4 @@ anwser = f(5)
 
 assert anwser == 443839
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

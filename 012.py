@@ -31,4 +31,4 @@ anwser = f(500)
 
 assert anwser == 76576500
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

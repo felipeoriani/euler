@@ -33,4 +33,4 @@ anwser = f()
 
 assert anwser == 1074
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

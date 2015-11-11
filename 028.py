@@ -1,4 +1,4 @@
-# ----------------------------------
+﻿# ----------------------------------
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
@@ -28,4 +28,4 @@ anwser = f(1001)
 
 assert anwser == 669171001
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

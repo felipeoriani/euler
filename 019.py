@@ -29,4 +29,4 @@ anwser = f(1901, 2000)
 
 assert anwser == 171
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

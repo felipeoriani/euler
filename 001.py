@@ -1,4 +1,4 @@
-# ----------------------------------
+﻿# ----------------------------------
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
@@ -17,4 +17,4 @@ anwser = f(3) + f(5) - f(15)
 
 assert anwser == 233168
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

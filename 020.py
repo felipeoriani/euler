@@ -19,4 +19,4 @@ anwser = f(factorial(100))
 
 assert anwser == 648
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

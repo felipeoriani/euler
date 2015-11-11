@@ -1,9 +1,9 @@
-# ----------------------------------
+ï»¿# ----------------------------------
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
 # 011 - Largest product in a grid
-# What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+# What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20ï¿½20 grid?
 # ----------------------------------
 
 data =[[8, 2, 22, 97, 38, 15, 0, 40, 00, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],

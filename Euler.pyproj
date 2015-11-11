@@ -6,7 +6,7 @@
     <ProjectGuid>da4d3d95-087f-4893-802b-0f173e243244</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>035.py</StartupFile>
+    <StartupFile>022.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,7 @@
     <Compile Include="017.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="022.py" />
     <Compile Include="035.py" />
     <Compile Include="030.py" />
     <Compile Include="028.py" />

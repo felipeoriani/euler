@@ -24,4 +24,4 @@ anwser = f(110000, 10000)
 
 assert anwser == 104743
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

@@ -40,4 +40,4 @@ anwser = f(10**6)
 
 assert anwser == 55
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

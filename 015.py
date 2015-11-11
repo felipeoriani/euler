@@ -1,9 +1,9 @@
-# ----------------------------------
+ï»¿# ----------------------------------
 # Project Euler - projecteuler.net
 # ----------------------------------
 # Developed by Felipe B Oriani
 # 015 - Lattice paths
-# How many such routes are there through a 20×20 grid?
+# How many such routes are there through a 20ï¿½20 grid?
 # ----------------------------------
 
 # based on the lattices path concept: 
@@ -23,4 +23,4 @@ anwser = f(20)
 
 assert anwser == 137846528820
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

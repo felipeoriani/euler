@@ -118,4 +118,4 @@ anwser = f()
 
 assert anwser == 7273
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

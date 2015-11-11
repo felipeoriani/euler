@@ -24,4 +24,4 @@ anwser = f(10**6*2)
 
 assert anwser == 142913828922
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser

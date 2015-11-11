@@ -115,4 +115,4 @@ anwser = f()
 
 assert anwser == 5537376230
 
-print('Answer: ', anwser)
+print 'Answer: ', anwser
