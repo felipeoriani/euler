@@ -8,6 +8,7 @@ Since you have python installed and configured on your environment, to run each 
 
 $> python 010.py
 
-Status: http://projecteuler.net/profile/felipeoriani.png
  
+![Project Euler](http://projecteuler.net/profile/felipeoriani.png)
+
 
